@@ -1,0 +1,5 @@
+create database bank;
+use bank;
+create table account(accno int PRIMARY KEY,name varchar(30) not null,type char(1) not null,amt double,pswd varchar(8) not null);
+insert into account values(00102030,"Niharika Arora",'S',1000,"niha");
+insert into account values(00102031,"Palak Kothari",'C',1500,"4321");
